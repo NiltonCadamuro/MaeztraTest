@@ -24,6 +24,8 @@ const config: Config = {
 
         // border
         borderPrimary: "#FAA500",
+        borderSecondary: "#353535",
+        borderFooter: "#EFEFEF",
       },
     },
 

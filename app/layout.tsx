@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { titilliumWeb } from "./fonts";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "MaeztraTeste",
@@ -18,6 +19,7 @@ export default function RootLayout({
       <body className={`${titilliumWeb.className} bg-surfacePrimary`}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
