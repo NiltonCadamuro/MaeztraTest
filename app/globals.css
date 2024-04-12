@@ -5,3 +5,22 @@
 .container {
   @apply mx-auto max-w-[1598px] w-full;
 }
+
+.swiper-pagination {
+  @apply !flex !justify-center !gap-4 !bottom-4 lg:!bottom-6;
+}
+
+.swiper-pagination-bullet {
+  @apply !w-2 !h-2 lg:!w-4 lg:!h-4 !rounded-full !bg-transparent !opacity-100 !mx-0 border border-borderPrimary;
+}
+
+.swiper-pagination-bullet-active {
+  @apply !bg-surfaceSecondary;
+}
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after,
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  @apply !hidden;
+}
