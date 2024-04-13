@@ -7,7 +7,7 @@ import Menu from "./Menu";
 
 const Header = () => {
   return (
-    <header className="bg-surfaceHeader sticky">
+    <header className="bg-surfaceHeader sticky z-50">
       <TopBarHeader text="Acompanhe as melhores promoções disponíveis aqui na Maeztra." />
       <div className="px-4 shadow-header">
         <div className="container flex justify-between h-[88px] gap-[31px] lg:gap-5">

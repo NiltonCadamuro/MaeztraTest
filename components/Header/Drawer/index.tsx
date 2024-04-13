@@ -21,7 +21,7 @@ const Drawer = () => {
             priority
           />
         </div>
-        <div className={`${drawerOpen ? "left-0" : "-left-full"} w-screen h-screen fixed top-0 transition-all backdrop-brightness-50`}>
+        <div className={`${drawerOpen ? "left-0" : "-left-full"} w-screen h-screen fixed top-0 transition-all backdrop-brightness-50 z-30`}>
           <div className="max-w-[90%] w-full h-full bg-surfacePrimary px-4 relative">
             <div className="py-5">
               <Image

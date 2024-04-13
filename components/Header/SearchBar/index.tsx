@@ -20,7 +20,7 @@ const SearchBar = () => {
             priority
           />
         </div>
-        <div className={`${searchOpen ? "right-0" : "-right-full"} w-screen h-screen fixed top-0 transition-all backdrop-brightness-50 flex justify-end`}>
+        <div className={`${searchOpen ? "right-0" : "-right-full"} w-screen h-screen fixed top-0 transition-all backdrop-brightness-50 flex justify-end z-30`}>
           <div className="max-w-[90%] w-full h-full bg-surfacePrimary px-4">
             <div className="py-5">
               <Image
