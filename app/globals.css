@@ -24,3 +24,7 @@
 .swiper-rtl .swiper-button-next:after {
   @apply !hidden;
 }
+
+.swiper-slide-active .ProductSummary {
+  @apply flex flex-col items-center lg:block;
+}

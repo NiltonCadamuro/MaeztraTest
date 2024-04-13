@@ -1,5 +1,4 @@
 export interface Product {
-  product: {
     image: string;
     skus: Sku[];
     name: string;
@@ -7,7 +6,6 @@ export interface Product {
     description: string;
     price: number;
     link: string;
-  };
 }
 
 export interface Sku {

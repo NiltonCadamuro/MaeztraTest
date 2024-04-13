@@ -63,7 +63,7 @@ const Slider = ({ children, spaceBetween, slidesPerView, dots, sliderName, break
       </div>
       {
         arrow && (
-          <div className='!flex container absolute top-0 left-0 right-0  h-full items-center justify-between px-7'>
+          <div className={`${sliderName === "shelf" ? "px-0 !hidden lg:!flex" : "px-7 !flex"} container absolute top-0 left-0 right-0  h-full items-center justify-between`}>
             <div className={`swiper-button-prev swiper-button-prev-${sliderName} !static`}>
               <Image src="/arrow-left.svg" alt="flecha para esquerda" width={20} height={32} />
             </div>
