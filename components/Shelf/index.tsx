@@ -158,7 +158,7 @@ const Shelf = () => {
             ];
 
     return (
-        <div className="w-full mx-auto max-w-[1600px]">
+        <section className="w-full mx-auto max-w-[1600px]">
             <Title className="mb-4 lg:mb-6">As Mais Pedidas</Title>
             <div className="pl-4 lg:pl-0">
             <Slider
@@ -188,7 +188,7 @@ const Shelf = () => {
                 ))}
                 </Slider>
             </div>
-        </div>
+        </section>
     )
 }
 

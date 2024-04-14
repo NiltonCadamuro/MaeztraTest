@@ -1,4 +1,6 @@
 import BannerOutono from "@/components/BannerOutono";
+import Brands from "@/components/Brands";
+import BusinessInformation from "@/components/BusinessInformation";
 import MainBanner from "@/components/MainBanner";
 import Shelf from "@/components/Shelf";
 
@@ -36,6 +38,8 @@ export default function Home() {
         },
       ]}
       />
+      <BusinessInformation />
+      <Brands />
       <Shelf />
       <BannerOutono />
     </main>

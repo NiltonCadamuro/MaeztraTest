@@ -37,7 +37,7 @@ const ProductSummary = (product: Product) => {
         }</p>
         <h3 className="text-textPrimary lg:text-textTertiary text-base mt-[2px] mb-2">{product.name}</h3>
         <p className="text-textPrimary lg:text-textTertiary text-xs leading-[18px] pr-[5px]">{product.description}</p>
-        <a href={product.link} className="mt-2 w-full flex justify-center items-center h-[35px] rounded text-textSecondary bg-surfaceSecondary text-base leading-[35px]">Adicionar</a>
+        <a href={product.link} className="mt-2 w-full flex justify-center items-center h-[35px] rounded text-textSecondary bg-surfaceSecondary text-base leading-[35px] outline-none">Adicionar</a>
       </div>
     </div>
   );

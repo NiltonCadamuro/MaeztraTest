@@ -28,3 +28,7 @@
 .swiper-slide-active .ProductSummary {
   @apply flex flex-col items-center lg:block;
 }
+
+.no-scroll-bar::-webkit-scrollbar {
+  display: none;
+}

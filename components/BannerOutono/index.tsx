@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const BannerOutono = () => {
     return (
-        <div className="px-[31px] lg:px-4 mt-[7px] mb-10 lg:mt-16 lg:mb-20">
+        <section className="px-[31px] lg:px-4 mt-[7px] mb-10 lg:mt-16 lg:mb-20">
 <div className="flex flex-col lg:flex-row gap-6 justify-between lg:items-center container">
             <div className="w-full lg:max-w-[420px]">
                 <h3 className="text-textTertiary font-bold text-2xl leading-[37px] mb-4">Lorem ipsum </h3>
@@ -30,7 +30,7 @@ const BannerOutono = () => {
               />
             </div>
         </div>
-        </div>
+        </section>
         
     )
 }

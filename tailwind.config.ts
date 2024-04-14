@@ -15,6 +15,7 @@ const config: Config = {
         surfaceTertiary: "#353535",
         surfaceHeader: "#FFFFFF",
         surfaceSearchBar: "#EFEFEF",
+        surfaceInfos: "#EFEFEF",
 
         // text
         textPrimary: "#353535",
@@ -31,6 +32,7 @@ const config: Config = {
 
     boxShadow: {
       header: "0 4px 6px rgba(0, 0, 0, 0.08)",
+      brands: "0 4px 4px rgba(0, 0, 0, 0.13)",
     },
   },
   plugins: [],

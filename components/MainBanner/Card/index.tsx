@@ -16,7 +16,7 @@ const MainBannerCard = ({ title, description, image, imageMobile, link }: MainBa
         priority
       />
       <Image
-        className={`hidden lg:block absolute z-0 top-0 left-0 w-full aspect-[9/8] lg:aspect-[16/5]`}
+        className={`hidden lg:block absolute z-0 top-0 left-0 w-full aspect-[9/8] lg:aspect-[16/5] h-full`}
         src={image}
         alt="Imagem do banner principal"
         width={1920}
