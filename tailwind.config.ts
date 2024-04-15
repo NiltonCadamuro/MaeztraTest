@@ -16,17 +16,21 @@ const config: Config = {
         surfaceHeader: "#FFFFFF",
         surfaceSearchBar: "#EFEFEF",
         surfaceInfos: "#EFEFEF",
+        surfaceModal: "#FFFFFF",
 
         // text
         textPrimary: "#353535",
         textSecondary: "#FFFFFF",
         textTertiary: "#000000",
         textSpecial: "#FAA500",
+        textNewsletterPrimary: "#464B54",
+        textNewsletterSecondary: "#787D83",
 
         // border
         borderPrimary: "#FAA500",
         borderSecondary: "#353535",
         borderFooter: "#EFEFEF",
+        borderNewsletter: "#C4C4C4",
       },
       keyframes: {
         fadeIn: {
@@ -38,10 +42,10 @@ const config: Config = {
           "100%": { opacity: "0" },
         },
       },
-        animation: {
-          fadeIn: "fadeIn 0.5s ease-in",
-          fadeOut: "fadeOut 0.5s ease-out",
-        },
+      animation: {
+        fadeIn: "fadeIn 0.5s ease-in",
+        fadeOut: "fadeOut 0.5s ease-out",
+      },
     },
 
     boxShadow: {
