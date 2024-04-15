@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/maeztra-test/",
+  // gib hub pages config
+  basePath: "/maeztra-test",
+  assetPrefix: "/maeztra-test",
 };
 
 export default nextConfig;
