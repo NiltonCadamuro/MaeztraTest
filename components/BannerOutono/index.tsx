@@ -30,7 +30,7 @@ const BannerOutono = () => {
         <div className="w-full max-w-[1114px]">
           <Image
             className="block lg:hidden aspect-[289/184] w-full"
-            src="/banner-outono-mobile.png"
+            src="/maeztra-test/banner-outono-mobile.png"
             alt="Banner outono"
             width={289}
             height={184}
@@ -38,7 +38,7 @@ const BannerOutono = () => {
           />
           <Image
             className="hidden lg:block aspect-[557/240] w-full"
-            src="/banner-outono.png"
+            src="/maeztra-test/banner-outono.png"
             alt="Banner outono"
             width={1114}
             height={480}
