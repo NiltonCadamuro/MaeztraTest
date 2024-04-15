@@ -2,13 +2,11 @@ import Slider from "../Slider";
 import MainBannerCard from "./Card";
 import { MainBannerCardProps } from "./Card/types";
 
-const MainBanner = ({ items }: {
-  items: MainBannerCardProps[];
-}) => {
+const MainBanner = ({ items }: { items: MainBannerCardProps[] }) => {
   return (
     <section className="w-full aspect-[9/8] lg:aspect-[16/5]">
       <Slider
-        sliderName='main-banner'
+        sliderName="main-banner"
         slidesPerView={1}
         spaceBetween={0}
         dots
@@ -27,6 +25,6 @@ const MainBanner = ({ items }: {
       </Slider>
     </section>
   );
-}
+};
 
 export default MainBanner;

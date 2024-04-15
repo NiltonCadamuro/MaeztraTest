@@ -9,7 +9,10 @@ const SearchBar = () => {
   return (
     <>
       <div className="block lg:hidden">
-        <div onClick={() => setSearchOpen(true)} className="w-8 h-8 flex items-center justify-center">
+        <div
+          onClick={() => setSearchOpen(true)}
+          className="w-8 h-8 flex items-center justify-center"
+        >
           <Image
             className=""
             src="/header/search-icon.svg"
@@ -20,7 +23,9 @@ const SearchBar = () => {
             priority
           />
         </div>
-        <div className={`${searchOpen ? "right-0" : "-right-full"} w-screen h-screen fixed top-0 transition-all backdrop-brightness-50 flex justify-end z-30`}>
+        <div
+          className={`${searchOpen ? "right-0" : "-right-full"} w-screen h-screen fixed top-0 transition-all backdrop-brightness-50 flex justify-end z-30`}
+        >
           <div className="max-w-[90%] w-full h-full bg-surfacePrimary px-4">
             <div className="py-5">
               <Image
@@ -33,7 +38,10 @@ const SearchBar = () => {
                 priority
               />
             </div>
-            <div onClick={() => setSearchOpen(false)} className="absolute right-4 top-4">
+            <div
+              onClick={() => setSearchOpen(false)}
+              className="absolute right-4 top-4"
+            >
               <Image
                 className=""
                 src="/header/X.svg"
@@ -55,7 +63,6 @@ const SearchBar = () => {
               </button>
             </div>
           </div>
-
         </div>
       </div>
 
@@ -70,7 +77,6 @@ const SearchBar = () => {
         </button>
       </div>
     </>
-
   );
 };
 

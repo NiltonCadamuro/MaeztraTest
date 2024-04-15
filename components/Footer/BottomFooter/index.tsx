@@ -37,7 +37,11 @@ const BottomFooter = () => {
                 loading="lazy"
               />
             </a>
-            <a href="/youtube" target="_blank" className="w-[32px] h-[32px] flex justify-center items-center">
+            <a
+              href="/youtube"
+              target="_blank"
+              className="w-[32px] h-[32px] flex justify-center items-center"
+            >
               <Image
                 className=""
                 src="/youtube.svg"
@@ -85,7 +89,11 @@ const BottomFooter = () => {
         </div>
         <div className="flex gap-5 w-full max-w-[207px] lg:h-full lg:pt-[19px] lg:pb-[17px]">
           <div className="flex flex-col gap-[7px]">
-            <span className={`${openSans.className} text-[10px] text-textSecondary leading-4 font-normal opacity-60 lg:opacity-70`}>Powered by</span>
+            <span
+              className={`${openSans.className} text-[10px] text-textSecondary leading-4 font-normal opacity-60 lg:opacity-70`}
+            >
+              Powered by
+            </span>
             <Image
               className="opacity-60 lg:opacity-100"
               src="/vtex-logo.png"
@@ -96,7 +104,11 @@ const BottomFooter = () => {
             />
           </div>
           <div className="flex flex-col gap-[6px]">
-            <span className={`${openSans.className} text-[10px] text-textSecondary leading-4 font-normal opacity-60 lg:opacity-70`}>Developed by</span>
+            <span
+              className={`${openSans.className} text-[10px] text-textSecondary leading-4 font-normal opacity-60 lg:opacity-70`}
+            >
+              Developed by
+            </span>
             <Image
               className="opacity-60 lg:opacity-100"
               src="/logo-maeztra-footer.png"
@@ -110,6 +122,6 @@ const BottomFooter = () => {
       </div>
     </div>
   );
-}
+};
 
 export default BottomFooter;

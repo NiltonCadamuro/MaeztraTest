@@ -10,7 +10,10 @@ const Drawer = () => {
   return (
     <>
       <div className="block lg:hidden">
-        <div onClick={() => setDrawerOpen(true)} className="w-8 h-8 flex items-center justify-center">
+        <div
+          onClick={() => setDrawerOpen(true)}
+          className="w-8 h-8 flex items-center justify-center"
+        >
           <Image
             className=""
             src="/header/drawer.svg"
@@ -21,7 +24,9 @@ const Drawer = () => {
             priority
           />
         </div>
-        <div className={`${drawerOpen ? "left-0" : "-left-full"} w-screen h-screen fixed top-0 transition-all backdrop-brightness-50 z-30`}>
+        <div
+          className={`${drawerOpen ? "left-0" : "-left-full"} w-screen h-screen fixed top-0 transition-all backdrop-brightness-50 z-30`}
+        >
           <div className="max-w-[90%] w-full h-full bg-surfacePrimary px-4 relative">
             <div className="py-5">
               <Image
@@ -34,7 +39,10 @@ const Drawer = () => {
                 priority
               />
             </div>
-            <div onClick={() => setDrawerOpen(false)} className="absolute right-4 top-4">
+            <div
+              onClick={() => setDrawerOpen(false)}
+              className="absolute right-4 top-4"
+            >
               <Image
                 className=""
                 src="/header/X.svg"
@@ -55,7 +63,9 @@ const Drawer = () => {
                 loading="eager"
                 priority
               />
-              <span className="text-textPrimary text-sm leading-[21px]">Minha Conta</span>
+              <span className="text-textPrimary text-sm leading-[21px]">
+                Minha Conta
+              </span>
             </a>
             <a href="#wishlist" className="flex gap-2 py-3">
               <Image
@@ -67,42 +77,46 @@ const Drawer = () => {
                 loading="eager"
                 priority
               />
-              <span className="text-textPrimary text-sm leading-[21px]">Minha Conta</span>
+              <span className="text-textPrimary text-sm leading-[21px]">
+                Minha Conta
+              </span>
             </a>
             <div className="mt-2">
-              <Menu items={[
-                {
-                  title: "Novidades",
-                  url: "/novidades",
-                  color: "#FAA500",
-                  bold: true,
-                  icon: "/header/novidades-icon.svg",
-                },
-                {
-                  title: "Vestidos",
-                  url: "/vestidos",
-                },
-                {
-                  title: "Roupas",
-                  url: "/roupas",
-                },
-                {
-                  title: "Sapatos",
-                  url: "/sapatos",
-                },
-                {
-                  title: "Lingerie",
-                  url: "/lingerie",
-                },
-                {
-                  title: "Acessórios",
-                  url: "/acessorios",
-                },
-                {
-                  title: "OUTLET",
-                  url: "/outlet",
-                },
-              ]} />
+              <Menu
+                items={[
+                  {
+                    title: "Novidades",
+                    url: "/novidades",
+                    color: "#FAA500",
+                    bold: true,
+                    icon: "/header/novidades-icon.svg",
+                  },
+                  {
+                    title: "Vestidos",
+                    url: "/vestidos",
+                  },
+                  {
+                    title: "Roupas",
+                    url: "/roupas",
+                  },
+                  {
+                    title: "Sapatos",
+                    url: "/sapatos",
+                  },
+                  {
+                    title: "Lingerie",
+                    url: "/lingerie",
+                  },
+                  {
+                    title: "Acessórios",
+                    url: "/acessorios",
+                  },
+                  {
+                    title: "OUTLET",
+                    url: "/outlet",
+                  },
+                ]}
+              />
             </div>
           </div>
         </div>

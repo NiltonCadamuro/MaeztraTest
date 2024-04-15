@@ -38,7 +38,9 @@ const Header = () => {
                   loading="eager"
                   priority
                 />
-                <span className="text-textPrimary text-sm leading-[21px]">Minha Conta</span>
+                <span className="text-textPrimary text-sm leading-[21px]">
+                  Minha Conta
+                </span>
               </a>
               <a href="#wishlist" className="flex gap-2">
                 <Image
@@ -50,7 +52,9 @@ const Header = () => {
                   loading="eager"
                   priority
                 />
-                <span className="text-textPrimary text-sm leading-[21px]">Minha Conta</span>
+                <span className="text-textPrimary text-sm leading-[21px]">
+                  Minha Conta
+                </span>
               </a>
             </div>
             <div>
@@ -60,42 +64,44 @@ const Header = () => {
         </div>
       </div>
       <div className="hidden lg:flex h-[48px] items-start justify-center container">
-        <Menu items={[
-          {
-            title: "Novidades",
-            url: "/novidades",
-            color: "#FAA500",
-            bold: true,
-            icon: "/header/novidades-icon.svg",
-          },
-          {
-            title: "Vestidos",
-            url: "/vestidos",
-          },
-          {
-            title: "Roupas",
-            url: "/roupas",
-          },
-          {
-            title: "Sapatos",
-            url: "/sapatos",
-          },
-          {
-            title: "Lingerie",
-            url: "/lingerie",
-          },
-          {
-            title: "Acessórios",
-            url: "/acessorios",
-          },
-          {
-            title: "OUTLET",
-            url: "/outlet",
-          },
-        ]} />
+        <Menu
+          items={[
+            {
+              title: "Novidades",
+              url: "/novidades",
+              color: "#FAA500",
+              bold: true,
+              icon: "/header/novidades-icon.svg",
+            },
+            {
+              title: "Vestidos",
+              url: "/vestidos",
+            },
+            {
+              title: "Roupas",
+              url: "/roupas",
+            },
+            {
+              title: "Sapatos",
+              url: "/sapatos",
+            },
+            {
+              title: "Lingerie",
+              url: "/lingerie",
+            },
+            {
+              title: "Acessórios",
+              url: "/acessorios",
+            },
+            {
+              title: "OUTLET",
+              url: "/outlet",
+            },
+          ]}
+        />
       </div>
     </header>
-  )
-}
+  );
+};
 
 export default Header;

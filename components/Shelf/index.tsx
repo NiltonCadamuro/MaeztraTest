@@ -8,7 +8,8 @@ const Shelf = () => {
     {
       image: "/products/product-1.png",
       name: "Faux Suede Mini Skirt",
-      description: "A faux suede mini skirt featuring exposed button-front closures and panel seam construction.",
+      description:
+        "A faux suede mini skirt featuring exposed button-front closures and panel seam construction.",
       price: 500,
       link: "/product-1",
       skus: [
@@ -27,13 +28,14 @@ const Shelf = () => {
         {
           id: "roxo",
           color: "#3C3B79",
-        }
+        },
       ],
     },
     {
       image: "/products/product-2.png",
       name: "Ruched Rose Print Mini Skirt",
-      description: "A satin mini skirt featuring an allover floral print, ruched side with self-tie closure, concealed back zipper, and a flounce hem.",
+      description:
+        "A satin mini skirt featuring an allover floral print, ruched side with self-tie closure, concealed back zipper, and a flounce hem.",
       price: 320,
       link: "/product-2",
       skus: [
@@ -52,13 +54,14 @@ const Shelf = () => {
         {
           id: "branco",
           color: "#EAE9E5",
-        }
+        },
       ],
     },
     {
       image: "/products/product-1.png",
       name: "Faux Suede Mini Skirt",
-      description: "A faux suede mini skirt featuring exposed button-front closures and panel seam construction.",
+      description:
+        "A faux suede mini skirt featuring exposed button-front closures and panel seam construction.",
       price: 500,
       link: "/product-1",
       skus: [
@@ -77,13 +80,14 @@ const Shelf = () => {
         {
           id: "roxo",
           color: "#3C3B79",
-        }
+        },
       ],
     },
     {
       image: "/products/product-2.png",
       name: "Ruched Rose Print Mini Skirt",
-      description: "A satin mini skirt featuring an allover floral print, ruched side with self-tie closure, concealed back zipper, and a flounce hem.",
+      description:
+        "A satin mini skirt featuring an allover floral print, ruched side with self-tie closure, concealed back zipper, and a flounce hem.",
       price: 320,
       link: "/product-2",
       skus: [
@@ -102,13 +106,14 @@ const Shelf = () => {
         {
           id: "branco",
           color: "#EAE9E5",
-        }
+        },
       ],
     },
     {
       image: "/products/product-1.png",
       name: "Faux Suede Mini Skirt",
-      description: "A faux suede mini skirt featuring exposed button-front closures and panel seam construction.",
+      description:
+        "A faux suede mini skirt featuring exposed button-front closures and panel seam construction.",
       price: 500,
       link: "/product-1",
       skus: [
@@ -127,13 +132,14 @@ const Shelf = () => {
         {
           id: "roxo",
           color: "#3C3B79",
-        }
+        },
       ],
     },
     {
       image: "/products/product-2.png",
       name: "Ruched Rose Print Mini Skirt",
-      description: "A satin mini skirt featuring an allover floral print, ruched side with self-tie closure, concealed back zipper, and a flounce hem.",
+      description:
+        "A satin mini skirt featuring an allover floral print, ruched side with self-tie closure, concealed back zipper, and a flounce hem.",
       price: 320,
       link: "/product-2",
       skus: [
@@ -152,7 +158,7 @@ const Shelf = () => {
         {
           id: "branco",
           color: "#EAE9E5",
-        }
+        },
       ],
     },
   ];
@@ -162,27 +168,26 @@ const Shelf = () => {
       <Title className="mb-4 lg:mb-6">As Mais Pedidas</Title>
       <div className="pl-4 lg:pl-0">
         <Slider
-          sliderName='shelf'
+          sliderName="shelf"
           slidesPerView={1.12}
           spaceBetween={14}
-          breakpoints={
-            {
-              1024: {
-                slidesPerView: 3,
-                spaceBetween: 16
-              },
-              1152: {
-                slidesPerView: 4,
-                spaceBetween: 16
-              },
-              1440: {
-                slidesPerView: 5,
-                spaceBetween: 16
-              }
-            }
-          }
+          breakpoints={{
+            1024: {
+              slidesPerView: 3,
+              spaceBetween: 16,
+            },
+            1152: {
+              slidesPerView: 4,
+              spaceBetween: 16,
+            },
+            1440: {
+              slidesPerView: 5,
+              spaceBetween: 16,
+            },
+          }}
           dots={false}
-          arrow >
+          arrow
+        >
           {products.map((product, index) => (
             <ProductSummary
               key={index}
@@ -197,7 +202,7 @@ const Shelf = () => {
         </Slider>
       </div>
     </section>
-  )
-}
+  );
+};
 
 export default Shelf;

@@ -2,7 +2,9 @@ const Newsletter = () => {
   return (
     <div className="w-full px-[31px] h-[120px] flex lg:items-center bg-surfacePrimary border-t-2 border-b-2 border-borderFooter">
       <div className="w-full max-w-[952px] mx-auto flex flex-col lg:flex-row items-center lg:justify-between">
-        <p className="text-textTertiary font-bold text-2xl leading-[38px] mt-[22px] lg:mt-0 mb-2 lg:mb-0">Recebe Nossa Newsletter</p>
+        <p className="text-textTertiary font-bold text-2xl leading-[38px] mt-[22px] lg:mt-0 mb-2 lg:mb-0">
+          Recebe Nossa Newsletter
+        </p>
         <div className="flex gap-[15px] lg:gap-0 items-center h-[26px] lg:h-10 max-w-[630px] w-full lg:rounded-[4px] lg:bg-white lg:pl-6 lg:border lg:border-borderSecondary lg:border-r-0">
           <input
             type="email"
@@ -16,6 +18,6 @@ const Newsletter = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Newsletter;
