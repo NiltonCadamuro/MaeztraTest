@@ -16,7 +16,7 @@ const Drawer = () => {
         >
           <Image
             className=""
-            src="/header/drawer.svg"
+            src="/maeztra-test/header/drawer.svg"
             alt="Menu"
             width={32}
             height={32}
@@ -31,7 +31,7 @@ const Drawer = () => {
             <div className="py-5">
               <Image
                 className=""
-                src="/logo.png"
+                src="/maeztra-test/logo.png"
                 alt="Maeztra"
                 width={147}
                 height={18}
@@ -45,7 +45,7 @@ const Drawer = () => {
             >
               <Image
                 className=""
-                src="/header/X.svg"
+                src="/maeztra-test/header/X.svg"
                 alt="Fechar"
                 width={24}
                 height={24}
@@ -56,7 +56,7 @@ const Drawer = () => {
             <a href="#minha-conta" className="flex gap-2 py-3">
               <Image
                 className=""
-                src="/header/myaccount-icon.svg"
+                src="/maeztra-test/header/myaccount-icon.svg"
                 alt="Minha Conta"
                 width={16}
                 height={16}
@@ -70,7 +70,7 @@ const Drawer = () => {
             <a href="#wishlist" className="flex gap-2 py-3">
               <Image
                 className=""
-                src="/header/wishlist-icon.svg"
+                src="/maeztra-test/header/wishlist-icon.svg"
                 alt="Minha Conta"
                 width={16}
                 height={16}
@@ -89,7 +89,7 @@ const Drawer = () => {
                     url: "/novidades",
                     color: "#FAA500",
                     bold: true,
-                    icon: "/header/novidades-icon.svg",
+                    icon: "/maeztra-test/header/novidades-icon.svg",
                   },
                   {
                     title: "Vestidos",

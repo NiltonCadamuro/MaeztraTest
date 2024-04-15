@@ -33,9 +33,9 @@ const Slider = ({
       },
       pagination: dots
         ? {
-            el: `.dots-${sliderName}`,
-            clickable: true,
-          }
+          el: `.dots-${sliderName}`,
+          clickable: true,
+        }
         : false,
       breakpoints: breakpoints ? breakpoints : {},
     });
@@ -76,7 +76,7 @@ const Slider = ({
             className={`swiper-button-prev swiper-button-prev-${sliderName} !static`}
           >
             <Image
-              src="/arrow-left.svg"
+              src="/maeztra-test/arrow-left.svg"
               alt="flecha para esquerda"
               width={20}
               height={32}
@@ -86,7 +86,7 @@ const Slider = ({
             className={`swiper-button-next swiper-button-next-${sliderName} !static`}
           >
             <Image
-              src="/arrow-right.svg"
+              src="/maeztra-test/arrow-right.svg"
               alt="flecha para dirteita"
               width={20}
               height={32}

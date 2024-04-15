@@ -24,7 +24,7 @@ const NewsletterModal = () => {
           <div className="hidden lg:w-1/2 lg:block">
             <Image
               className=""
-              src="/bg-newsletter.png"
+              src="/maeztra-test/bg-newsletter.png"
               alt="imagem da newsletter modal"
               width={426}
               height={531}
@@ -36,7 +36,7 @@ const NewsletterModal = () => {
             <div className="w-full max-w-[322px] flex flex-col items-center pt-10 lg:pt-0 pb-[24px] lg:pb-[43px] px-5">
               <Image
                 className=""
-                src="/newsletter-mail-icon.svg"
+                src="/maeztra-test/newsletter-mail-icon.svg"
                 alt="imagem da newsletter modal"
                 width={28}
                 height={30}
@@ -61,7 +61,7 @@ const NewsletterModal = () => {
                 </span>
                 <Image
                   className=""
-                  src="/icon-send-newsletter.svg"
+                  src="/maeztra-test/icon-send-newsletter.svg"
                   alt="imagem da newsletter modal"
                   width={12}
                   height={20}

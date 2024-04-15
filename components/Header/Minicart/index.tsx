@@ -9,7 +9,7 @@ const Minecart = () => {
       >
         <Image
           className=""
-          src="/header/minicart-icon.svg"
+          src="/maeztra-test/header/minicart-icon.svg"
           alt="Meu Carrinho"
           width={14}
           height={16}
@@ -23,7 +23,7 @@ const Minecart = () => {
       <a href="#cart" className="block lg:hidden w-8 h-8">
         <Image
           className=""
-          src="/header/minicart-icon-mobile.svg"
+          src="/maeztra-test/header/minicart-icon-mobile.svg"
           alt="Meu Carrinho"
           width={32}
           height={32}

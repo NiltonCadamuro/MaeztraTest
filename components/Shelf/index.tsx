@@ -6,7 +6,7 @@ import { Product } from "./ProductSummary/types";
 const Shelf = () => {
   const products: Product[] = [
     {
-      image: "/products/product-1.png",
+      image: "/maeztra-test/products/product-1.png",
       name: "Faux Suede Mini Skirt",
       description:
         "A faux suede mini skirt featuring exposed button-front closures and panel seam construction.",
@@ -32,7 +32,7 @@ const Shelf = () => {
       ],
     },
     {
-      image: "/products/product-2.png",
+      image: "/maeztra-test/products/product-2.png",
       name: "Ruched Rose Print Mini Skirt",
       description:
         "A satin mini skirt featuring an allover floral print, ruched side with self-tie closure, concealed back zipper, and a flounce hem.",
@@ -58,7 +58,7 @@ const Shelf = () => {
       ],
     },
     {
-      image: "/products/product-1.png",
+      image: "/maeztra-test/products/product-1.png",
       name: "Faux Suede Mini Skirt",
       description:
         "A faux suede mini skirt featuring exposed button-front closures and panel seam construction.",
@@ -84,7 +84,7 @@ const Shelf = () => {
       ],
     },
     {
-      image: "/products/product-2.png",
+      image: "/maeztra-test/products/product-2.png",
       name: "Ruched Rose Print Mini Skirt",
       description:
         "A satin mini skirt featuring an allover floral print, ruched side with self-tie closure, concealed back zipper, and a flounce hem.",
@@ -110,7 +110,7 @@ const Shelf = () => {
       ],
     },
     {
-      image: "/products/product-1.png",
+      image: "/maeztra-test/products/product-1.png",
       name: "Faux Suede Mini Skirt",
       description:
         "A faux suede mini skirt featuring exposed button-front closures and panel seam construction.",
@@ -136,7 +136,7 @@ const Shelf = () => {
       ],
     },
     {
-      image: "/products/product-2.png",
+      image: "/maeztra-test/products/product-2.png",
       name: "Ruched Rose Print Mini Skirt",
       description:
         "A satin mini skirt featuring an allover floral print, ruched side with self-tie closure, concealed back zipper, and a flounce hem.",

@@ -16,7 +16,7 @@ const Header = () => {
               <Drawer />
               <Image
                 className="max-w-[100px] lg:max-w-[unset]"
-                src="/logo.png"
+                src="/maeztra-test/logo.png"
                 alt="Maeztra"
                 width={147}
                 height={18}
@@ -31,7 +31,7 @@ const Header = () => {
               <a href="#minha-conta" className="flex gap-2">
                 <Image
                   className=""
-                  src="/header/myaccount-icon.svg"
+                  src="/maeztra-test/header/myaccount-icon.svg"
                   alt="Minha Conta"
                   width={14}
                   height={16}
@@ -45,7 +45,7 @@ const Header = () => {
               <a href="#wishlist" className="flex gap-2">
                 <Image
                   className=""
-                  src="/header/wishlist-icon.svg"
+                  src="/maeztra-test/header/wishlist-icon.svg"
                   alt="Minha Conta"
                   width={18}
                   height={16}
@@ -71,7 +71,7 @@ const Header = () => {
               url: "/novidades",
               color: "#FAA500",
               bold: true,
-              icon: "/header/novidades-icon.svg",
+              icon: "/maeztra-test/header/novidades-icon.svg",
             },
             {
               title: "Vestidos",

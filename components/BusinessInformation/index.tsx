@@ -6,27 +6,27 @@ const BusinessInformation = () => {
     {
       title: "Produtos importados",
       content: "Produto de Alta Qualidade",
-      icon: "/infos/world.svg",
+      icon: "/maeztra-test/infos/world.svg",
     },
     {
       title: "Estoque no Brazil",
       content: "Produtos mais perto de você!",
-      icon: "/infos/warehouse.svg",
+      icon: "/maeztra-test/infos/warehouse.svg",
     },
     {
       title: "Trocas Garantidas",
       content: "Trocas em até 48 horas, vejas as regras",
-      icon: "/infos/delivery.svg",
+      icon: "/maeztra-test/infos/delivery.svg",
     },
     {
       title: "Ganhe 5% off",
       content: "Pagando à vista no Cartão",
-      icon: "/infos/cupom.svg",
+      icon: "/maeztra-test/infos/cupom.svg",
     },
     {
       title: "Frete Grátis",
       content: "Em compras acima de R$ 499,00",
-      icon: "/infos/delivery-truck.svg",
+      icon: "/maeztra-test/infos/delivery-truck.svg",
     },
   ];
 

@@ -3,11 +3,11 @@ import Title from "../Title";
 
 const Brands = () => {
   const brands = [
-    "/brands/comma.png",
-    "/brands/melissa.png",
-    "/brands/forever21.png",
-    "/brands/zara.png",
-    "/brands/ann-taylor.png",
+    "/maeztra-test/brands/comma.png",
+    "/maeztra-test/brands/melissa.png",
+    "/maeztra-test/brands/forever21.png",
+    "/maeztra-test/brands/zara.png",
+    "/maeztra-test/brands/ann-taylor.png",
   ];
   return (
     <section className="">

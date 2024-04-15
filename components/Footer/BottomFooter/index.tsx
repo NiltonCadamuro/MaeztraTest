@@ -10,7 +10,7 @@ const BottomFooter = () => {
             <a href="/facebook" target="_blank">
               <Image
                 className=""
-                src="/facebook.svg"
+                src="/maeztra-test/facebook.svg"
                 alt="Facebook"
                 width={32}
                 height={32}
@@ -20,7 +20,7 @@ const BottomFooter = () => {
             <a href="/linkedin" target="_blank">
               <Image
                 className=""
-                src="/linkedin.svg"
+                src="/maeztra-test/linkedin.svg"
                 alt="LinkedIn"
                 width={32}
                 height={32}
@@ -30,7 +30,7 @@ const BottomFooter = () => {
             <a href="/instagram" target="_blank">
               <Image
                 className=""
-                src="/instagram.svg"
+                src="/maeztra-test/instagram.svg"
                 alt="Instagram"
                 width={32}
                 height={32}
@@ -44,7 +44,7 @@ const BottomFooter = () => {
             >
               <Image
                 className=""
-                src="/youtube.svg"
+                src="/maeztra-test/youtube.svg"
                 alt="YouTube"
                 width={32}
                 height={22}
@@ -55,7 +55,7 @@ const BottomFooter = () => {
           <div className="flex gap-6 lg:gap-[22px]">
             <Image
               className=""
-              src="/payment-flags/visa.svg"
+              src="/maeztra-test/payment-flags/visa.svg"
               alt="Visa"
               width={32}
               height={25}
@@ -63,7 +63,7 @@ const BottomFooter = () => {
             />
             <Image
               className=""
-              src="/payment-flags/mastercard.svg"
+              src="/maeztra-test/payment-flags/mastercard.svg"
               alt="Mastercard"
               width={32}
               height={25}
@@ -71,7 +71,7 @@ const BottomFooter = () => {
             />
             <Image
               className=""
-              src="/payment-flags/visa.svg"
+              src="/maeztra-test/payment-flags/visa.svg"
               alt="Visa"
               width={32}
               height={25}
@@ -79,7 +79,7 @@ const BottomFooter = () => {
             />
             <Image
               className=""
-              src="/payment-flags/mastercard.svg"
+              src="/maeztra-test/payment-flags/mastercard.svg"
               alt="Mastercard"
               width={32}
               height={25}
@@ -96,7 +96,7 @@ const BottomFooter = () => {
             </span>
             <Image
               className="opacity-60 lg:opacity-100"
-              src="/vtex-logo.png"
+              src="/maeztra-test/vtex-logo.png"
               alt="VTEX"
               width={68}
               height={25}
@@ -111,7 +111,7 @@ const BottomFooter = () => {
             </span>
             <Image
               className="opacity-60 lg:opacity-100"
-              src="/logo-maeztra-footer.png"
+              src="/maeztra-test/logo-maeztra-footer.png"
               alt="Maeztra"
               width={119}
               height={29}

@@ -15,7 +15,7 @@ const SearchBar = () => {
         >
           <Image
             className=""
-            src="/header/search-icon.svg"
+            src="/maeztra-test/header/search-icon.svg"
             alt="Buscar"
             width={24}
             height={24}
@@ -30,7 +30,7 @@ const SearchBar = () => {
             <div className="py-5">
               <Image
                 className=""
-                src="/logo.png"
+                src="/maeztra-test/logo.png"
                 alt="Maeztra"
                 width={147}
                 height={18}
@@ -44,7 +44,7 @@ const SearchBar = () => {
             >
               <Image
                 className=""
-                src="/header/X.svg"
+                src="/maeztra-test/header/X.svg"
                 alt="Fechar"
                 width={24}
                 height={24}
