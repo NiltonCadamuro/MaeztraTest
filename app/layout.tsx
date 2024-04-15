@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "MaeztraTeste",
-  description: "Teste para a Maeztra",
+  description: "Teste para processo seletivo da Maeztra",
 };
 
 export default function RootLayout({
