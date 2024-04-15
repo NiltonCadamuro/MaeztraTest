@@ -1,8 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",
-  reactStrictMode: true,
-  basePath: "/MaeztraTest",
+  basePath: "/maeztra-test/",
 };
 
 export default nextConfig;
